@@ -6,8 +6,6 @@ body,html {
 
 html {
     font-size: 10px;
-    /* background: url('https://i.imgur.com/b9r5sEL.jpg') bottom center;
-    background-size: cover; */
     background: #161616;
   }
   
@@ -32,6 +30,7 @@ html {
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .5rem black;
     cursor: pointer;
+    user-select: none;
   }
   
   .playing {
